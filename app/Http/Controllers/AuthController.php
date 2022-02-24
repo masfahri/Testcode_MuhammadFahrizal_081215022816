@@ -51,7 +51,7 @@ class AuthController extends Controller
 
         if (Auth::check()) {
             if(auth()->user()->hasRole('manajer')){
-                return redirect()->route('kelurahan.index');
+                return redirect()->route('dashboard.index');
             }
             elseif(auth()->user()->hasRole('pelayan')){
                 return redirect()->route('pelayan.dashboard.index');
