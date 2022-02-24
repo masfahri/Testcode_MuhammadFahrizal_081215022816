@@ -178,6 +178,7 @@ return [
         /**
          * Third Party
          */
+        browner12\helpers\HelperServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
 
 

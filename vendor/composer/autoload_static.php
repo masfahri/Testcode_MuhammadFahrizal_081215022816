@@ -50,6 +50,10 @@ class ComposerStaticInit70fe7fcd85b53db6203b90e384e673fe
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'b' => 
+        array (
+            'browner12\\helpers\\' => 18,
+        ),
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -196,6 +200,10 @@ class ComposerStaticInit70fe7fcd85b53db6203b90e384e673fe
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'browner12\\helpers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/browner12/helpers/src',
         ),
         'Whoops\\' => 
         array (
@@ -573,6 +581,7 @@ class ComposerStaticInit70fe7fcd85b53db6203b90e384e673fe
         'App\\Http\\Controllers\\OrdeDetailController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrdeDetailController.php',
         'App\\Http\\Controllers\\OrderController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderController.php',
         'App\\Http\\Controllers\\OrderTempController' => __DIR__ . '/../..' . '/app/Http/Controllers/OrderTempController.php',
+        'App\\Http\\Controllers\\PegawaiController' => __DIR__ . '/../..' . '/app/Http/Controllers/PegawaiController.php',
         'App\\Http\\Controllers\\PembayaranController' => __DIR__ . '/../..' . '/app/Http/Controllers/PembayaranController.php',
         'App\\Http\\Controllers\\ProvinsiController' => __DIR__ . '/../..' . '/app/Http/Controllers/ProvinsiController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
@@ -607,12 +616,14 @@ class ComposerStaticInit70fe7fcd85b53db6203b90e384e673fe
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\ViewTotalHarga' => __DIR__ . '/../..' . '/app/Models/ViewTotalHarga.php',
         'App\\Models\\ViewTotalHargabyIDFromOrders' => __DIR__ . '/../..' . '/app/Models/ViewTotalHargabyIDFromOrders.php',
+        'App\\Observers\\OrderObserver' => __DIR__ . '/../..' . '/app/Observers/OrderObserver.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
         'App\\Services\\AutoIncrementServices' => __DIR__ . '/../..' . '/app/Services/AutoIncrementServices.php',
+        'App\\Traits\\OrdersActivity' => __DIR__ . '/../..' . '/app/Traits/OrdersActivity.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -5495,6 +5506,8 @@ class ComposerStaticInit70fe7fcd85b53db6203b90e384e673fe
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+        'browner12\\helpers\\Commands\\HelperMakeCommand' => __DIR__ . '/..' . '/browner12/helpers/src/Commands/HelperMakeCommand.php',
+        'browner12\\helpers\\HelperServiceProvider' => __DIR__ . '/..' . '/browner12/helpers/src/HelperServiceProvider.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
